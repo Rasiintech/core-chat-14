@@ -25,6 +25,7 @@
   {
    "fieldname": "guest_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Guest Name",
    "reqd": 1
   },
@@ -40,6 +41,7 @@
   {
    "fieldname": "ip_address",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Ip Address",
    "read_only": 1,
    "reqd": 1,
@@ -48,7 +50,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-27 17:10:40.131734",
+ "modified": "2026-01-27 18:55:12.323963",
  "modified_by": "Administrator",
  "module": "Frappe Chat",
  "name": "Chat Profile",
@@ -71,5 +73,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
